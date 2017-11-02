@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.75;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.position{
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: .7rem;
+  font-style: italic;
+  margin-left: .5rem  ;
+}
+.name{
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+}
+.exspand{
+  font-size: 2rem;
+  margin-left: .5rem;
+  margin-right: .3rem;
+  cursor: pointer;
+  width: 1rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  padding-top: 5rem ;
+  width: 1170px;
+  margin: 0 auto;
+}

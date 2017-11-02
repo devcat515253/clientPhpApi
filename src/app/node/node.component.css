@@ -1,0 +1,28 @@
+.item{
+  display: flex;
+}
+
+html, body {
+  height: 100%
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.75;
+
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+
+
+ul {
+  margin-left: 2rem;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
